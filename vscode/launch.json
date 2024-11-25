@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      
+      {
+        "name": "Odoo Debug v18",
+        "type": "debugpy",
+        "request": "launch",
+        "stopOnEntry": false,
+        "python": "${workspaceFolder:odoo18}/../config/venv18/bin/python3",
+        "program": "${workspaceFolder:odoo18}/odoo-bin",
+        "args": [
+          "-c",
+          "${workspaceFolder:odoo18}/../config/odoo18.conf",
+
+        ],
+        "cwd": "${workspaceFolder}",
+        "console": "integratedTerminal",
+        "env": {
+          "PYTHONPATH": "${workspaceFolder:odoo18}",
+          "VIRTUAL_ENV": "${workspaceFolder:odoo18}/../config/venv18",  // Ruta al virtualenv
+          "PATH": "${workspaceFolder:odoo18}/../config/venv18/bin:${env:PATH}"
+        },
+        "justMyCode": true,
+      }
+    ]
+}
