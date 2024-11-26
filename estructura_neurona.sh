@@ -46,6 +46,6 @@ wget https://raw.githubusercontent.com/NeuronaTech/estructura/refs/heads/main/vs
 
 echo "Instalando odoo en 'venv18'..."
 source "$PARENT_DIR/config/venv18/bin/activate"
-#pip install --upgrade pip
-#pip install -r $PARENT_DIR/config/requirements-o18.txt
+pip install --upgrade pip
+pip install -r $PARENT_DIR/config/requirements-o18.txt
 echo "Estructura completa creada en '$PARENT_DIR'."
