@@ -48,4 +48,5 @@ echo "Instalando odoo en 'venv18'..."
 source "$PARENT_DIR/config/venv18/bin/activate"
 pip install --upgrade pip
 pip install -r $PARENT_DIR/config/requirements-o18.txt
+git clone --branch=18.0 --depth=1 --single-branch https://www.github.com/odoo/odoo "$PARENT_DIR/odoo18"
 echo "Estructura completa creada en '$PARENT_DIR'."
