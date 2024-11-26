@@ -39,7 +39,7 @@ echo "Entorno virtual 'venv18' creado con éxito."
 wget https://raw.githubusercontent.com/NeuronaTech/estructura/refs/heads/main/requirements-o18.txt -P "$PARENT_DIR/config/"
 wget https://raw.githubusercontent.com/NeuronaTech/estructura/refs/heads/main/requirements-o15.txt -P "$PARENT_DIR/config/"
 
-wget https://raw.githubusercontent.com/NeuronaTech/estructura/refs/heads/main/pyrightconfig-o18.json -P "$PARENT_DIR/modulos18/pyrightconfig.json"
+wget https://raw.githubusercontent.com/NeuronaTech/estructura/refs/heads/main/pyrightconfig-o18.json -P "$PARENT_DIR/modulos18/" -O pyrightconfig.json
 wget https://raw.githubusercontent.com/NeuronaTech/estructura/refs/heads/main/vscode-o18/launch.json -P "$PARENT_DIR/modulos18/.vscode/"
 wget https://raw.githubusercontent.com/NeuronaTech/estructura/refs/heads/main/vscode-o18/settings.json -P "$PARENT_DIR/modulos18/.vscode/"
 wget https://raw.githubusercontent.com/NeuronaTech/estructura/refs/heads/main/vscode-o18/shortcuts.json -P "$PARENT_DIR/modulos18/.vscode/"
