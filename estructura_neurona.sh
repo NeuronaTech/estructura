@@ -38,6 +38,7 @@ python3 -m venv "$PARENT_DIR/config/venv18"
 echo "Entorno virtual 'venv18' creado con éxito."
 wget https://raw.githubusercontent.com/NeuronaTech/estructura/refs/heads/main/requirements-o18.txt -P "$PARENT_DIR/config/"
 wget https://raw.githubusercontent.com/NeuronaTech/estructura/refs/heads/main/requirements-o15.txt -P "$PARENT_DIR/config/"
+wget https://raw.githubusercontent.com/NeuronaTech/estructura/refs/heads/main/odoo18.conf -P "$PARENT_DIR/config/"
 
 wget https://raw.githubusercontent.com/NeuronaTech/estructura/refs/heads/main/pyrightconfig-o18.json -P "$PARENT_DIR/modulos18/" -O pyrightconfig.json
 wget https://raw.githubusercontent.com/NeuronaTech/estructura/refs/heads/main/vscode-o18/launch.json -P "$PARENT_DIR/modulos18/.vscode/"
