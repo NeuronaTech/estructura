@@ -1,0 +1,12 @@
+{
+    "executionEnvironments": [
+      {
+        "root": "./",
+        "extraPaths": [
+          "../odoo18",         // Ruta a la instalación de Odoo
+          "../odoo18/addons",  // Ruta a los addons estándar de Odoo
+        ]
+      }
+    ]
+  }
+  
